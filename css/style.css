@@ -198,3 +198,20 @@ span{
 
 ##################################################### */
 
+/* **************************************************************>> */
+/* #####################################################
+
+               Footer-Section Css Start
+
+##################################################### */
+
+.Main-Footer-Section{
+    width: 100%;
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+}
+.Footer-One h1{
+    padding: 75px 0px;
+    font-family: 'Lobster';
+}
