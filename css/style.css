@@ -60,3 +60,100 @@ body{
                Header-Section Css End
 
 ##################################################### */
+/* **************************************************************>> */
+/* #####################################################
+
+               Blog-Section Css Start
+
+##################################################### */
+
+/*  ------ -----       Part-1     ----- -----            */
+.Blog-Section{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.side-btns{
+    margin: 40px;
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    border-radius: 5px;
+   
+}
+.side-btns a{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 25px;
+    color: black;
+    background-color: #FFFFFF;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    margin:  40px;
+    transition: 0.5s linear;
+    display: block;
+    font-size: 18px;
+}
+.side-btns a:hover, .side-btns a.active{
+    background-color: blueviolet;
+    border: 2px solid #FFFFFF;
+}
+/*  ------ -----       Part-2     ----- -----            */
+.news-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    grid-gap: 10px;
+    margin-top: 40px;
+}
+.news{
+    border: 2px solid rgb(246, 238, 238);
+    border-radius: 10px;
+}
+.news-blog .blog img{
+    width: 250px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.news-info a{
+    text-decoration: none;
+    margin-left: 25px;
+    padding: 3px 10px;
+    color: black;
+    background-color: #FFFFFF;
+    border: 2px solid rgb(191, 138, 241);
+    transition: 0.5s linear;
+    border-radius: 5px;
+}
+.news-info a:hover{
+    background-color: rgb(191, 138, 241);
+}
+.news-info h3{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.Comment-Time{
+    display: flex;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}
+.Time{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.Comment{
+    display: flex;
+    align-items: center;
+}
+span{
+    margin-left: 5px;
+}
+/* #####################################################
+
+               Blog-Section Css End
+
+##################################################### */
