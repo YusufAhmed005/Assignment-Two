@@ -71,6 +71,7 @@ body{
 .Blog-Section{
     width: 90%;
     margin: 40px auto;
+    margin-bottom: 80px;
     display: flex;
 }
 
@@ -157,3 +158,43 @@ span{
                Blog-Section Css End
 
 ##################################################### */
+
+/* **************************************************************>> */
+/* #####################################################
+
+               Extra-Section Css Start
+
+##################################################### */
+
+.Extra-Section{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+   
+
+}
+.etra-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 45px;
+    color: #FFFFFF;
+    margin: 50px auto;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    margin-left:  60px;
+    transition: 0.5s linear;
+}
+.etra-btn a:hover{
+    background-color: transparent;
+    color: black;
+
+}
+
+
+/* #####################################################
+
+               Extra-Section Css End
+
+##################################################### */
+
