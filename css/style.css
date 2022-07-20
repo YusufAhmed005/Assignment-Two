@@ -212,6 +212,30 @@ span{
     text-align: center;
 }
 .Footer-One h1{
-    padding: 75px 0px;
+    padding-top: 70px;
+    padding-bottom: 35px;
     font-family: 'Lobster';
 }
+hr{
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.F-Section-Two{
+    padding-top: 35px;
+}
+.F-Section-Two ul{
+    display: flex;
+    padding-bottom: 45px;
+    justify-content: center;
+    
+}
+.F-Section-Two ul li{
+    list-style-type: none;
+    padding: 0px 25px ;
+}
+
+/* #####################################################
+
+               Footer-Section Css End
+
+##################################################### */
