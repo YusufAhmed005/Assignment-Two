@@ -11,13 +11,13 @@ body{
                Header-Section Css Start
 
 ##################################################### */
+
 .Header-Section{
     background-color: black;
     border-radius: 5px;
     width: 80%;
     margin: 40px auto;
     display: flex;
-
 }
 .Header-Section h1{
     color: #FFFFFF;
@@ -38,6 +38,7 @@ body{
     border: 2px solid blueviolet;
     border-radius: 5px;
     margin-left:  60px;
+    transition: 0.5s linear;
 }
 .Header-Section a:hover{
     background-color: transparent;
@@ -45,14 +46,13 @@ body{
 .fa-arrow-right-to-bracket{
     padding-left: 15px;
 }
+   
 .Header-img img{
-    height: 550px;
+    height: 555px;
     width: 450px;
     padding-right: 50px;
     padding-top: 53px;
     padding-left: 20px;
-    border-radius: 0px;
-
 }
 
 /* #####################################################
