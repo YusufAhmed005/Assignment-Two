@@ -234,6 +234,47 @@ hr{
     list-style-type: none;
     padding: 0px 25px ;
 }
+.animation-icon{
+    padding-bottom: 30px;
+}
+.animation-icon .btn{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+
+}
+.animation-icon .btn:hover{
+    width: 200px;
+
+}
+.animation-icon .btn .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+}
+.animation-icon .btn .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    color: blueviolet;
+}
+.animation-icon .btn span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    color: blueviolet;
+}
 
 /* #####################################################
 
