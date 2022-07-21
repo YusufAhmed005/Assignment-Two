@@ -419,10 +419,7 @@ hr{
     .Blog-Section{
         flex-direction: column;
     }
-    .side-btns a{
-        
-        
-    }
+    
     .side-btns{
      background-color: #FFFFFF;
     display: flex;
