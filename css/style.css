@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Signika Negative', sans-serif;
+    width: 100%;
 }
 
 /* #####################################################
@@ -284,5 +285,117 @@ hr{
 
 ##################################################### */
 
+/* **************************************************************>> */
+/* #####################################################
 
+               Responsive Css Start
+
+##################################################### */
+
+/*    Mobile    */
+
+
+@media only screen and (max-width:688px){
+    .Header-Section{
+        background-color: black;
+        border-radius: 5px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+        
+    }
+    .Header-Section h1{
+        color: #FFFFFF;
+        font-size: 26px;
+        line-height: 25px;
+        
+    } 
+    .Header-Section p{
+        color: #FFFFFF;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .Header-img img{
+        height: 200px;
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 53px;
+        padding-left: 20px;
+    }
+    .Blog-Section{
+        flex-direction: column;
+    }
+    
+    .side-btns{
+        background-color: #FFFFFF;
+        align-items: center;
+    }
+    .side-btns a{
+        width: 100px;
+        padding: 0px auto;
+    }
+    .news-blog .blog img{
+        width: 100%;
+    }
+    .news-blog, .match-blog{
+        grid-template-columns: repeat(1, 1fr );
+        grid-column-gap: 5px;
+    }
+    .Extra-Section{
+        display: none;
+    }
+    .F-Section-Two ul{
+        flex-direction: column;
+    }
+    .F-Section-Two ul li{
+        padding: 5px 0px;
+    }
+
+}
+
+/*    Tab let   */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .Header-Section{
+        background-color: black;
+        border-radius: 5px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .Header-Section h1{
+        color: #FFFFFF;
+        font-size: 26px;
+        line-height: 25px;
+       
+    }
+    .side-btns a{
+        
+        
+    }
+    .side-btns{
+        background-color: #FFFFFF;
+       display: grid;
+       
+    }
+    .news-blog, .match-blog{
+        grid-template-columns: repeat(2, 1fr );
+        grid-column-gap: 5px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1312px) {
+    .Extra-Section{
+        display: none;
+    }
+}
+
+/* #####################################################
+
+               Responsive Css End
+
+##################################################### */
 
