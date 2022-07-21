@@ -393,6 +393,9 @@ hr{
     .F-Section-Two ul li{
         padding: 5px 0px;
     }
+    .animation-icon{
+        display: none;
+    }
 
 }
 
@@ -432,12 +435,11 @@ hr{
         grid-template-columns: repeat(2, 1fr );
         grid-column-gap: 5px;
     }
-    .F-Section-Two ul{
-        
-        
-    }
     .F-Section-Two ul li{
        padding: 5px;
+    }
+    .animation-icon{
+        display: none;
     }
 
 }
