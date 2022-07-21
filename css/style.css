@@ -239,3 +239,50 @@ hr{
                Footer-Section Css End
 
 ##################################################### */
+
+/* **************************************************************>> */
+/* #####################################################
+
+               Match-Blog Css Start
+
+##################################################### */
+
+.match-blog{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    grid-gap: 10px;
+}
+.matchs{
+    border: 2px solid rgb(246, 238, 238);
+    border-radius: 10px;
+}
+.match{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.match img{
+    padding: 10px;
+}
+.match p{
+    padding-top: 37px;
+}
+.match-info{
+    text-align: center;
+
+}
+.match-info h3{
+    padding-bottom: 10px;
+}
+.match-info p{
+    padding-bottom: 20px;
+}
+/* #####################################################
+
+               Match-Blog Css End
+
+##################################################### */
+
+
+
